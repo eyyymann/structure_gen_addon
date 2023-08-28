@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "structure-gen-addon",
+	"version": "${version}",
+	"name": "Structure Gen Addon",
+	"description": "This is a mod that helps with many hard-coded generation issues.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/structure-gen-addon/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.sixeyes.structure_gen_addon.StructureGenAddonMod"
+		],
+		"fabric-datagen": [
+			"com.sixeyes.structure_gen_addon.StructureGenAddonModDataGenerator"
+		],
+		"client": [
+			"com.sixeyes.structure_gen_addon.client.StructureGenAddonClient"
+		]
+	},
+	"mixins": [
+		"structure-gen-addon.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

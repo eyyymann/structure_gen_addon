@@ -1,0 +1,19 @@
+{
+  "values": [
+    "minecraft:diamond_block",
+    "minecraft:gold_block",
+    "minecraft:emerald_block",
+    "minecraft:structure_void",
+    "minecraft:stone_bricks",
+    "minecraft:cracked_stone_bricks",
+    "minecraft:mossy_stone_bricks",
+    "minecraft:stone",
+    "minecraft:gravel",
+    "minecraft:dirt",
+    "minecraft:andesite",
+    "minecraft:cobblestone",
+    "minecraft:polished_andesite",
+    "minecraft:cobblestone_wall"
+  ],
+  "replace": false
+}
